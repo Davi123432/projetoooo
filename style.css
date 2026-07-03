@@ -163,15 +163,13 @@ footer{
 }
 .item_sobre{
     background-color: #ffffff;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     padding: 40px;
     border-radius: 16px;
     box-shadow: 1px 10px 30px rgb(158, 132, 97);
     border: 1px solid #f2e6df;
-}
-.item_sobre{
-    font-size: 16px;
+    font-size: 20px;
     color: #5d4d42;
     margin-bottom: 20px;
     text-align: justify;
@@ -203,4 +201,13 @@ footer{
 .item_contatos p{
     font-size: 14px;
     color: #665544;
+}
+.rodape_servicos{
+    margin-top: 6%;
+}
+.rodape_sobre{
+    margin-top: 3%;
+}
+.rodape_contatos{
+    margin-top: 9%;
 }
