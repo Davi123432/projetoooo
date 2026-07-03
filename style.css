@@ -1,0 +1,206 @@
+/*Configurações de Todo o Site*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Define a fonte para todo o site*/
+}
+/*Configurações do Corpo*/
+body{
+    background-color: rgb(228, 207, 180); /*Serve para definir a cor de fundo de todo do corpo do site*/
+    color: #4a3c31;
+}
+/*Cofigurações do Cabeçalho*/
+header{
+    background-color: rgb(226, 130, 146); /*Define uma cor de fundo específica para o cabeçalho*/
+    color: #fef5d1;
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    color: #722411; /*Serve para determinar uma cor específica ao texto*/
+    font-size: 32px;
+}
+header p{
+    opacity: 0.9; /*Utiliza-se para reduzir minimamente a visibilidade do parágrafo*/
+    color: #aa3f25;
+}
+/*Configurações do Menu de Navegação*/
+.menu{
+    background-color: #dd8282;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 3px black; /*Sombra para destacar a caixa do menu*/
+}
+.menu a{
+    text-decoration: none; /*Coloca-se para retirar a sublinhação das palavras*/
+    color: #4a3c31;
+    font-weight: bold;
+    margin: 15px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+.menu a:hover{ /*Quando passar o mouse por cima do menu, ele irá mudar a cor do fundo e do texto*/
+    background-color: #ffcad4;
+    color: #ffffff;
+}
+/*Configurações do Banner*/
+.banner{
+    background-color: #eeddce;
+    text-align: center; /*Alinha-se o texto ao centro*/
+    padding: 50px;
+}
+.banner h2{
+    font-size: 28px;
+    margin-bottom: 10px; /*Define-se uma margem específica para o banner*/
+    color: #ff477e;
+}
+/*Configurações do Conteúdo Principal*/
+.conteudo_principal{
+    display: flex;
+    justify-content: center; /*Alinha todos os items flexíveis ao centro*/
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.missao{
+    background-color: #fceade;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgb(190, 161, 105);
+}
+.visao{
+    background-color: #d8f3dc;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgb(190, 161, 105);
+}
+.conteudo_principal h3{
+    margin-bottom: 12px;
+    font-size: 22px;
+    color: #4a3c31;
+}
+/*Configurações da Galeria*/
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem1{
+    background-color: #ff8fa3;
+    text-align: center;
+    border: solid 3px rgb(207, 79, 100);
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(201, 83, 102);
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-right: 2%;
+}
+.imagem2{
+    background-color: #ff8fa3;
+    text-align: center;
+    border: solid 3px rgb(207, 79, 100);
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(201, 83, 102);
+}
+.imagem3{
+    background-color: #ff8fa3;
+    text-align: center;
+    border: solid 3px rgb(207, 79, 100);
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(201, 83, 102);
+    padding-top: 3%; /*Utiliza-se para definir o preenchimento da terceira imagem*/
+    margin-left: 2%;
+}
+/*Configurações do Rodapé*/
+footer{
+    background-color: #4a3c31;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    font-size: 14px; /*Define-se o tamanho da fonte do rodapé*/
+}
+/*Configurações dos Serviços*/
+.conteudo_servicos h2{
+    text-align: center;
+    color: #4a3c31;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.conteudo_servicos p{
+    text-align: center;
+    color: #665544;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.item_servicos{
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 1px 10px 30px rgb(163, 135, 98);
+    border: 1px solid #f0e6df;
+}
+.item_servicos ul{
+    padding-left: 15px;
+}
+.item_servicos li{
+    font-size: 16px;
+    color: #5d4d42;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+/*Configurações do Sobre*/
+.conteudo_sobre h2{
+    text-align: center;
+    color: #4a3c31;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+.item_sobre{
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 1px 10px 30px rgb(158, 132, 97);
+    border: 1px solid #f2e6df;
+}
+.item_sobre{
+    font-size: 16px;
+    color: #5d4d42;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/*Configurações dos Contatos*/
+.conteudo_contatos h2{
+    text-align: center;
+    color: #4a3c31;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+.item_contatos{
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 1px 10px 30px rgb(160, 134, 101);
+    border: 1px solid #f2e6df;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.item_contatos h3{
+    font-size: 16px;
+    color: #4a3c31;
+    margin-bottom: 1%;
+}
+.item_contatos p{
+    font-size: 14px;
+    color: #665544;
+}
